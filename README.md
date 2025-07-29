@@ -141,7 +141,7 @@ Caso o site retorne erro de acesso (403 Access Denied):
 ```
 <img width="1530" height="547" alt="image" src="https://github.com/user-attachments/assets/8a901026-d0ad-4ccb-877f-e7fb18bdac55" />
 
-Substitua meusite-runascloud pelo nome real do seu bucket.
+Substitua my-cloud-site pelo nome real do seu bucket.
 
 - Salve a política
 
