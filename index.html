@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>First Steps in the Cloud</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white flex flex-col min-h-screen">
+
+  <!-- HEADER -->
+  <header class="w-full p-6 flex items-center justify-between bg-gray-800 shadow-md">
+    <h1 class="text-2xl font-bold text-yellow-400">First Steps in the Cloud</h1>
+    <nav class="flex gap-8 text-lg font-medium">
+      <a href="#" class="hover:text-yellow-300">Início</a>
+      <a href="#" class="hover:text-yellow-300">Fale Conosco</a>
+      <a href="#" class="hover:text-yellow-300">Treinamentos</a>
+    </nav>
+    
+    <div class="flex items-center gap-2 cursor-pointer bg-yellow-400 text-black px-4 py-2 rounded-lg hover:bg-yellow-300 transition">
+      <i data-lucide="log-in" class="w-5 h-5"></i>
+      <a href="#" class="font-medium text-base">Faça Login</a>
+    </div>
+  </header>
+
+  <!-- MAIN SECTION -->
+  <main class="flex flex-col items-center justify-center flex-1 px-6 py-16 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">Seu Próximo passo para a Certificação AWS começa Aqui!</h2>
+
+    <img src="./img/aws-logo.png" alt="AWS Logo" class="w-64 md:w-80 mb-6">
+
+    <blockquote class="text-xl md:text-2xl font-light italic text-gray-200 mb-6 max-w-2xl">
+      Aprenda sobre Computação em Nuvem de uma forma simples e divertida.
+    </blockquote>
+
+    <button class="bg-yellow-400 text-black px-6 py-3 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition">
+      <a href="computacao.html" class="...">Inicie Agora</a>
+    </button>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="w-full bg-gray-800 text-gray-300 py-6 mt-auto">
+    <div class="flex justify-center gap-6">
+      <a href="https://www.linkedin.com/in/heberton-geovane/" target="_blank">
+        <img src="./img/icons8-linkedin-48.png" alt="LinkedIn" class="w-8 h-8">
+      </a>
+      <a href="https://github.com/HebertonGeovane" target="_blank">
+        <i data-lucide="github" class="w-8 h-8 hover:text-white"></i>
+      </a>
+      <a href="https://medium.com/@heberton.geovane" target="_blank">
+        <i data-lucide="pen" class="w-8 h-8 hover:text-white"></i>
+      </a>
+    </div>
+    <p class="text-center text-sm mt-4">© 2025 - Projeto Educacional AWS</p>
+  </footer>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+
+</body>
+</html>
+
